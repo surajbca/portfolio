@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./Component/main.css">
+    <script src="./Component/main.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1>Suraj kumar</h1>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <ul class="nav-links " id="navLinks">
+                <!-- <li><a href="#about">About</a></li>-->
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="intro">
+                <h1>Welcome to My Portfolio</h1>
+                <p>I am passionate about <span class="highlight">web development</span> and skilled in HTML, CSS,
+                    Boostrap, Bulma, JavaScript, React.js, C#, SQL Server and DotNet
+                    .</p>
+                <a href="#skills" class="cta-button">View Portfolio</a>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <!--<div class="ProjectLine"></div>-->
+            <div class="project">
+                <h3>Project 1: Instagram Line breaker</h3>
+                <p>Description:This is Instagram Line breaker Tool. I have completed Instagram Line breaker Tool with
+                    different- different function for
+                    example italic text function, bold
+                    text function, crisp text function, clear text function and copy text function.</p>
+                <p>Technologies used: HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="project">
+                <h3>Project 2: Randon SVG Shape generator</h3>
+                <p>Description: This is random Svg and Png image generator . I have completed Randon SVG Shape generator
+                    Tool with different-different
+                    function for example I can make different-different type random image using this tool with all
+                    color.</p>
+                <p>Technologies used: Html, CSS, Bulma and JavaScript</p>
+            </div>
+
+            <div class="project">
+                <h3>Project 3: Background color detection from Image</h3>
+                <p>Description: This is a background image color finder tool. I have completer this tool with some
+                    function for
+                    example we have upload
+                    any image then giver that background image color</p>
+                <p>Technologies used: Html, CSS, Bulma and JavaScript</p>
+            </div>
+
+            <div class="project">
+                <h3>Project 4: Generate Fake Twitter Profiles</h3>
+                <p>Description: This is a fake twitter website. I have completed with different - different function for
+                    example we can input user name
+                    , id , location . we can upload user profile pic and background pic .like any twitter user in fake
+                    twitter website.</p>
+                <p>Technologies used: Html, CSS, Bulma and JavaScript</p>
+            </div>
+
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <!-- <div class="SkillsLine"></div>-->
+
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level html">90%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level css">90%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>Boostrap</h3>
+                <div class="skill-bar">
+                    <div class="skill-level Boostrap">90%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level js">85%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>React</h3>
+                <div class="skill-bar">
+                    <div class="skill-level React">85%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>SQL Server</h3>
+                <div class="skill-bar">
+                    <div class="skill-level SQL">65%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>C# DotNet</h3>
+                <div class="skill-bar">
+                    <div class="skill-level DotNet">65%</div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <!-- <div class="ContactLine"></div>-->
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="success-message" style="display: none;">
+                <p>Thank you for your message!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About</h2>
+                <p>Suraj kumar</p>
+                <p>Email: krsurajkumar7481@.com</p>
+            </div>
+
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact-form">
+                <h2>Contact Me</h2>
+                <form id="footer-contact-form" class="contact-form">
+                    <!-- Include fields for contact form in the footer if needed -->
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; 2024 My Portfolio
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>
