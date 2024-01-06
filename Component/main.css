@@ -35,13 +35,13 @@
 
 .nav-links a:hover {
     color: #ff6347;
-    /* Hover color */
+    
 }
 
-/* Hamburger menu for mobile */
+
 .menu-toggle {
     display: none;
-    /* Hide by default on larger screens */
+   
     cursor: pointer;
 }
 
@@ -49,17 +49,17 @@
 @media screen and (max-width: 768px) {
     .menu-toggle {
         display: block;
-        /* Show hamburger icon on smaller screens */
+        
     }
 
     .nav-links {
         display: none;
-        /* Hide links by default on smaller screens */
+        
         flex-direction: column;
         background-color: #333;
         position: absolute;
         top: 60px;
-        /* Adjust top position */
+        
         left: 0;
         width: 100%;
         text-align: center;
@@ -68,23 +68,20 @@
 
     .nav-links.active {
         display: flex;
-        /* Show links when menu is toggled */
+        
     }
 
          .hide-on-mobile {
              display: none;
-             /* Hide on smaller screens */
+             
          }
 }
 
 .hide-on-mobile {
     display: block;
-    /* Display on larger screens */
+   
 }
-/* General styles */
 
-
-/* ... (Styles for body, header, nav, etc.) */
 
 /* Sections styling */
 section {
@@ -96,8 +93,6 @@ h2 {
     margin-bottom: 30px;
 }
 
-/* Styling for different sections (about, projects, skills, contact) */
-/* ... (Add specific styles for each section) */
 
 /* Responsive styles */
 
@@ -131,18 +126,15 @@ h2 {
     }
 }
 
-/* Add more media queries for larger screens if needed */
 
-/* General styles */
-/* ... (Previous styles remain the same) */
+
+
 
 /* Home section styles */
 #home {
     background: #f4f4f4;
-    /* Adjust background color as needed */
     text-align: center;
     padding: 100px 20px;
-    /* Adjust padding for content positioning */
 }
 
 .intro {
@@ -152,7 +144,7 @@ h2 {
 
 .highlight {
     color: #ff6347;
-    /* Adjust highlight color as needed */
+   
 }
 
 .cta-button {
@@ -160,9 +152,9 @@ h2 {
     padding: 10px 20px;
     text-decoration: none;
     background: #333;
-    /* Button background color */
+    
     color: #fff;
-    /* Button text color */
+   
     border-radius: 5px;
     margin-top: 20px;
     transition: background 0.3s ease;
@@ -170,24 +162,23 @@ h2 {
 
 .cta-button:hover {
     background: #555;
-    /* Button background color on hover */
+   
 }
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
     .intro {
         padding: 50px 20px;
-        /* Adjust padding for smaller screens */
+        
     }
 
     .cta-button {
         font-size: 14px;
-        /* Adjust button font size for smaller screens */
+        
     }
 }
 
-/* General styles */
-/* ... (Previous styles remain the same) */
+
 
 /* Portfolio section styles */
 #portfolio {
@@ -217,8 +208,7 @@ h2 {
     }
 }
 
-/* General styles */
-/* ... (Previous styles remain the same) */
+
 
 /* Skills section styles */
 #skills {
@@ -250,47 +240,47 @@ h2 {
     transition: width 1s ease-in-out;
 }
 
-/* Specific skill levels */
+
 .skill-level.html {
     width: 90%;
     background-color: #ff4500;
-    /* Adjust color as needed */
+   
 }
 
 .skill-level.css {
     width: 90%;
     background-color: #00b300;
-    /* Adjust color as needed */
+   
 }
 
 .skill-level.js {
     width: 85%;
     background-color: #ffff00;
-    /* Adjust color as needed */
+    
 }
 
 .skill-level.Boostrap {
     width: 90%;
     background-color: blue;
-    /* Adjust color as needed */
+   
 }
 
 .skill-level.React {
     width: 85%;
     background-color: #00ffff;
-    /* Adjust color as needed */
+    
 }
 
 .skill-level.SQL {
     width: 65%;
     background-color: #7b68ee;
-    /* Adjust color as needed */
+   
 }
 
 .skill-level.DotNet {
     width: 65%;
     background-color: #ffa500;
-    /* Adjust color as needed */
+   
 }
 
 /* Add more styles for different skills */
@@ -412,31 +402,6 @@ footer {
 }
 
 
-/*line Height*/
-.ProjectLine{
-    width: 110px;
-    height: 4px;
-    background: #333;
-    margin-left: 46%;
-    margin-bottom: 12px;
-    margin-top: 0px;
 
-}
 
-.SkillsLine{
-    width: 95px;
-        height: 4px;
-        background: #333;
-        margin-left: 47%;
-        margin-bottom: 12px;
-       
-}
 
-.ContactLine{
-    width: 145px;
-        height: 4px;
-        background: #333;
-        margin-left: 45%;
-        margin-bottom: 12px;
-        margin-top: 0px;
-}
